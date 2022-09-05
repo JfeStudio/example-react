@@ -1,0 +1,39 @@
+.rows-footer {
+  padding: 1rem;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cols-footer {
+  padding: 0;
+  background-color: black;
+}
+
+.cols-footer .cp {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #f1f1f1;
+}
+
+.cols-footer span {
+  color: red;
+  text-decoration: underline;
+}
+
+.cols-footer .media-social {
+  color: #f1f1f1;
+}
+
+.cols-footer span:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.cols-footer .media-social,
+.cols-footer span {
+  font-size: 0.8rem;
+}

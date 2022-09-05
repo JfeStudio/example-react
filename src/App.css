@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-default {
+  background-color: var(--bg-orange);
+  color: var(--text-white);
+}
+
+.border {
+  border: 1px solid;
+  display: block;
+}
